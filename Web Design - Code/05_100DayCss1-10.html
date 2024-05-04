@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100 Days Css Challenge 1 - 10</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/05_1-10.css">
+</head>
+<body>
+<div class="container">
+    <!-- DAY1 -->
+    <div id="day1">
+        <div class="center">
+            <!-- Shapes -->
+            <span class="shapes">
+                <span class="one"></span>
+                <span class="one add"></span>
+                <span class="two cir"></span>
+                <span class="three cir"></span>
+            </span>
+            <!-- Text -->
+            <span class="text big">Days</span>
+            <span class="text small">Css Challenge</span>
+        </div>
+    </div>
+
+    <!-- DAY2 -->
+    <div id="day2">
+        <div class="center">
+            <span class="line up"></span>
+            <span class="line ctr"></span>
+            <span class="line down"></span>
+        </div>
+    </div>
+
+    <!-- DAY3 -->
+    <div id="day3">
+        <div class="center">
+            <span class="sky"></span>
+            <span class="ground">
+                <span class="shadow"></span>
+            </span>
+            <!-- Day -->
+            <div class="day">
+                <span class="sun"></span>
+                <span class="moon"></span>
+            </div>
+            <!-- Pyramid -->
+            <div class="pyramid">
+                <span class="left"></span>
+                <span class="right"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- DAYS4 -->
+    <div id="day4">
+        <div class="center">
+            <span class="cir xl"></span>
+            <span class="cir bg"></span>
+            <span class="cir md"></span>
+            <span class="cir sm"></span>
+        </div>
+    </div>
+
+    <!-- DAY5 -->
+    <div id="day5">
+        <div class="center">
+            <!-- Header -->
+            <div class="header">
+                <span>
+                    <b>WEEKLY REPORT</b>
+                    <p>01. Feb - 07. Feb</p>
+                </span>
+                <span>
+                    <p>Revenue</p>
+                    <b>$ 3621.79</b>
+                </span>
+            </div>
+            <!-- Content -->
+            <div class="content">
+                <!-- info -->
+                <div class="info">
+                    <span class="view">Views</span>
+                    <span class="purc">Purchases</span>
+                </div>
+                <!-- graphic -->
+                <div class="graphic">
+                    <div class="bg-line">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="graph-line">
+                        <svg class="line red"><polyline points="22.5,100 62.5,70 107.5,80 152.5,22 197.5,5 242.5,36 287.5,44" /></svg>
+                        <div class="dots red">
+                            <span class="dot a"></span>
+                            <span class="dot b"></span>
+                            <span class="dot c"></span>
+                            <span class="dot d"></span>
+                            <span class="dot e"></span>
+                            <span class="dot f"></span>
+                            <span class="dot g"></span>
+                        </div>
+                        <svg class="line orange"><polyline points="22.5,100 62.5,95 107.5,25 152.5,50 197.5,60 242.5,80 287.5,70" /></svg>
+                        <div class="dots orange">
+                            <span class="dot a"></span>
+                            <span class="dot b"></span>
+                            <span class="dot c"></span>
+                            <span class="dot d"></span>
+                            <span class="dot e"></span>
+                            <span class="dot f"></span>
+                            <span class="dot g"></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- day -->
+                <div class="day">
+                    <span>MON</span>
+                    <span>TUE</span>
+                    <span>WED</span>
+                    <span>THU</span>
+                    <span>FRI</span>
+                    <span>SAT</span>
+                    <span>SUN</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- DAYS6 -->
+    <div id="day6">
+        <div class="center">
+
+            <!-- Left -->
+            <div class="left">
+                <span></span>
+                <!--  -->
+                <div class="photo">
+                    <span class="img"></span>
+                    <span class="cir in"></span>
+                    <span class="cir out"></span>
+                </div>
+                <!--  -->
+                <div class="name">
+                    <b>Your Name</b>
+                    <p>Your Job</p>
+                </div>
+                <!--  -->
+                <div class="action">
+                    <button>Follow</button>
+                    <button>Message</button>
+                </div>
+                <span></span>
+            </div>
+
+            <!-- Right -->
+            <div class="right">
+                <div class="box">
+                    <b class="value">200</b>
+                    <p class="param">Posts</p>
+                </div>
+                <div class="box">
+                    <b class="value">3350</b>
+                    <p class="param">Likes</p>
+                </div>
+                <div class="box">
+                    <b class="value">440</b>
+                    <p class="param">Follower</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- DAY7 -->
+    <div id="day7">
+
+        <!-- Main -->
+        <div class="main" id="main">
+            <!-- header -->
+            <div class="header">
+                <span class="btn-menu" onclick="getElementById('main').classList.toggle('active');
+                                                getElementById('menu').classList.toggle('active')">
+                    <span class="line1"></span>
+                    <span class="line2"></span>
+                    <span class="cir"></span>
+                </span>
+                <b>Notifications</b>
+                <span class="search" onclick="getElementById('btn-src').classList.toggle('active')">
+                    <i class="fas fa-search fa-fw"></i></span>
+                <input class="" type="text" name="" id="btn-src" placeholder="Search ...">
+            </div>
+            <!-- content -->
+            <div class="content">
+                <span class="line"></span>
+                <span class="notif">
+                    <span class="cir"></span>
+                    <p class="time">01.20 PM</p>
+                    <p class="text"><b>John Smith </b>go work and do you task.</p>
+                </span>
+                <span class="notif">
+                    <span class="cir"></span>
+                    <p class="time">07.45 AM</p>
+                    <p class="text"><b>John Smith </b>go to school today.</p>
+                </span>
+                <span class="notif">
+                    <span class="cir"></span>
+                    <p class="time">Yesterday</p>
+                    <p class="text"><b>Orange Mike </b>buy a cake.</p>
+                </span>
+            </div>
+        </div>
+
+        <!-- Menu -->
+        <div class="menu" id="menu">
+                <span>
+                    <i class="fas fa-dashboard fa-fw"></i>
+                    <p>Dashboard</p></span>
+                <span>
+                    <i class="fas fa-user fa-fw"></i>
+                    <p>Profile</p></span>
+                <span>
+                    <i class="fas fa-bell fa-fw"></i>
+                    <p>Notifications</p></span>
+                <span>
+                    <i class="fas fa-comments fa-fw"></i>
+                    <p>Messages</p></span>
+                <span>
+                    <i class="fas fa-gear fa-fw"></i>
+                    <p>Settings</p></span>
+        </div>
+
+    </div>
+
+    <!-- DAY8 -->
+    <div id="day8">
+        <div class="ball-ctr">
+
+            <!-- Cir In -->
+            <span class="cir-in-1"></span>
+            <span class="cir-in-2"></span>
+            <span class="cir-in-3"></span>
+            <span class="cir-in-4"></span>
+            <span class="cir-in-5"></span>
+            <span class="cir-in-6"></span>
+            <span class="cir-in-7"></span>
+            <span class="cir-in-8"></span>
+            
+            <!-- Cir Out -->
+            <span class="cir-out-1"></span>
+            <span class="cir-out-2"></span>
+            <span class="cir-out-3"></span>
+            <span class="cir-out-4"></span>
+            <span class="cir-out-5"></span>
+            <span class="cir-out-6"></span>
+            <span class="cir-out-7"></span>
+            <span class="cir-out-8"></span>
+            <span class="cir-out-9"></span>
+            <span class="cir-out-10"></span>
+            <span class="cir-out-11"></span>
+            <span class="cir-out-12"></span>
+            <span class="cir-out-13"></span>
+            <span class="cir-out-14"></span>
+            <span class="cir-out-15"></span>
+
+        </div>
+    </div>
+
+    <!-- DAY9 -->
+    <div id="day9">
+        <!-- Moon -->
+        <div class="moon">
+            <span class="cir-1"></span>
+            <span class="cir-2"></span>
+            <span class="cir-3"></span>
+            <span class="cir-4"></span>
+            <span class="cir-5"></span>
+            <span class="cir-6"></span>
+            <span class="cir-7"></span>
+            <span class="cir-8"></span>
+            <span class="cir-9"></span>
+            <span class="cir-10"></span>
+            <span class="cir-11"></span>
+            <span class="cir-12"></span>
+        </div>
+
+        <!-- Land -->
+        <div class="land">
+            <!-- back -->
+            <span class="back-1"></span>
+            <span class="back-2"></span>
+            <span class="back-3"></span>
+            <span class="back-4"></span>
+            <!-- center -->
+            <span class="center-1"></span>
+            <span class="center-2"></span>
+            <span class="center-3"></span>
+            <!-- front -->
+            <span class="front-1"></span>
+            <span class="front-2"></span>
+        </div>
+
+        <!-- Rain -->
+        <div class="rain">
+            <!-- big -->
+            <span class="big">
+                <div class="drop-1"></div>
+                <div class="drop-2"></div>
+                <div class="drop-3"></div>
+                <div class="drop-4"></div>
+                <div class="drop-5"></div>
+                <div class="drop-6"></div>
+                <div class="drop-7"></div>
+                <div class="drop-8"></div>
+                <div class="drop-9"></div>
+                <div class="drop-10"></div>
+                <div class="drop-11"></div>
+                <div class="drop-12"></div>
+            </span>
+            <!-- med -->
+            <span class="med">
+                <div class="drop-1"></div>
+                <div class="drop-2"></div>
+                <div class="drop-3"></div>
+                <div class="drop-4"></div>
+                <div class="drop-5"></div>
+                <div class="drop-6"></div>
+                <div class="drop-7"></div>
+                <div class="drop-8"></div>
+                <div class="drop-9"></div>
+                <div class="drop-10"></div>
+                <div class="drop-11"></div>
+                <div class="drop-12"></div>
+            </span>
+            <!-- sml -->
+            <span class="sml">
+                <div class="drop-1"></div>
+                <div class="drop-2"></div>
+                <div class="drop-3"></div>
+                <div class="drop-4"></div>
+                <div class="drop-5"></div>
+                <div class="drop-6"></div>
+                <div class="drop-7"></div>
+                <div class="drop-8"></div>
+                <div class="drop-9"></div>
+                <div class="drop-10"></div>
+                <div class="drop-11"></div>
+                <div class="drop-12"></div>
+            </span>
+        </div>
+
+        <!-- Text -->
+        <div class="text">
+            <span>12&deg;</span>
+            <span>Wind: 10km/h<br>Humidity: 90%</span>
+            <div class="hor-x">
+                <span class="ver-y">
+                    <p>MON</p>
+                    <p>THU</p>
+                </span>
+                <span class="ver-y">
+                    <p>20&deg; / 9&deg;</p>
+                    <p>24&deg; / 15&deg;</p>
+                </span>
+            </div>
+        </div>
+        
+    </div>
+    
+    <!-- DAY10 -->
+    <div id="day10">
+        <div class="frame">
+            <!-- SVG -->
+            <svg>
+                <circle />
+                <circle />
+            </svg>
+        </div>
+        <!-- Dots -->
+        <div class="dots">
+            <span class="dot">
+                <p></p><p></p><p></p><p></p></span>
+            <span class="dot">
+                <p></p><p></p><p></p><p></p></span>
+            <span class="dot">
+                <p></p><p></p><p></p><p></p></span>
+            <span class="dot">
+                <p></p><p></p><p></p><p></p></span>
+            <span class="dot">
+                <p></p><p></p><p></p><p></p></span>
+            <span class="dot">
+                <p></p><p></p><p></p><p></p></span>
+            <span class="dot">
+                <p></p><p></p><p></p><p></p></span>
+            <span class="dot">
+                <p></p><p></p><p></p><p></p></span>
+            <span class="dot">
+                <p></p><p></p><p></p><p></p></span>
+            <span class="dot">
+                <p></p><p></p><p></p><p></p></span>
+            <span class="dot">
+                <p></p><p></p><p></p><p></p></span>
+        </div>
+        <!-- Info -->
+        <div class="info">
+            <span class="cal">
+                <p class="month">03 May</p>
+            </span>
+            <span class="clock">
+                <p>PM</p>
+                <b class="num">04:52</b>
+            </span>
+            <span class="heart">
+                <span><i class="fas fa-heart fw"></i></span>
+                <p>120 BPM</p>
+            </span>
+        </div>
+        
+    </div>
+
+</div>
+</body>
+</html>
